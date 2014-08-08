@@ -4,7 +4,6 @@ ExUnit.start
 
 defmodule About_Named_Functions do
     use ExUnit.Case
-    use Koans
 
     def hello(name) do
       "Hello #{name}"
